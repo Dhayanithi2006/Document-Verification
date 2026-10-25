@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing & Coverage
+coverage/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Environment & Local Storage
+.env
+.env.local
+storage/documents/
+data/*.db*
+backups/
+*.log
+
+# Operating System
+.DS_Store
+Thumbs.db

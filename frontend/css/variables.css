@@ -1,0 +1,136 @@
+/* AICTE Pre-Scrutiny & Deficiency Resolution Platform */
+/* Centralized Design Tokens (variables.css) */
+
+:root {
+  /* Brand & Government Palette */
+  --color-navy-950: #071527;
+  --color-navy-900: #0A2540;
+  --color-navy-800: #0E355E;
+  --color-navy-700: #15467C;
+  --color-navy-600: #1D5698;
+
+  --color-blue-700: #1442AB;
+  --color-blue-600: #1A56DB;
+  --color-blue-500: #3F83F8;
+  --color-blue-100: #DEF7EC;
+  --color-blue-50: #EBF5FF;
+
+  /* National Accents */
+  --color-saffron-700: #B45309;
+  --color-saffron-600: #D97706;
+  --color-saffron-500: #F59E0B;
+  --color-saffron-100: #FEF3C7;
+  --color-saffron-50: #FFFBEB;
+
+  --color-green-800: #065F46;
+  --color-green-700: #047857;
+  --color-green-600: #059669;
+  --color-green-500: #10B981;
+  --color-green-100: #D1FAE5;
+  --color-green-50: #ECFDF5;
+
+  /* Status Colors */
+  --color-red-800: #991B1B;
+  --color-red-700: #B91C1C;
+  --color-red-600: #DC2626;
+  --color-red-500: #EF4444;
+  --color-red-100: #FEE2E2;
+  --color-red-50: #FEF2F2;
+
+  --color-amber-700: #B45309;
+  --color-amber-600: #D97706;
+  --color-amber-100: #FEF3C7;
+  --color-amber-50: #FFFBEB;
+
+  /* Slate Neutrals */
+  --color-slate-900: #0F172A;
+  --color-slate-800: #1E293B;
+  --color-slate-700: #334155;
+  --color-slate-600: #475569;
+  --color-slate-500: #64748B;
+  --color-slate-400: #94A3B8;
+  --color-slate-300: #CBD5E1;
+  --color-slate-200: #E2E8F0;
+  --color-slate-100: #F1F5F9;
+  --color-slate-50: #F8FAFC;
+  --color-white: #FFFFFF;
+
+  /* Semantic Variables */
+  --bg-app: var(--color-slate-50);
+  --bg-surface: var(--color-white);
+  --bg-surface-secondary: var(--color-slate-100);
+  --bg-header: var(--color-navy-900);
+  --bg-sidebar: var(--color-white);
+
+  --text-primary: var(--color-slate-900);
+  --text-secondary: var(--color-slate-700);
+  --text-muted: var(--color-slate-500);
+  --text-inverse: var(--color-white);
+
+  --border-light: var(--color-slate-200);
+  --border-medium: var(--color-slate-300);
+  --border-dark: var(--color-slate-400);
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SFMono-Regular', Menlo, Monaco, Consolas, monospace;
+
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.875rem;    /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.25rem;     /* 20px */
+  --text-2xl: 1.5rem;     /* 24px */
+  --text-3xl: 1.875rem;   /* 30px */
+
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  --line-tight: 1.25;
+  --line-normal: 1.5;
+  --line-relaxed: 1.625;
+
+  /* Spacing Scale */
+  --space-0-5: 0.125rem;  /* 2px */
+  --space-1: 0.25rem;     /* 4px */
+  --space-2: 0.5rem;      /* 8px */
+  --space-3: 0.75rem;     /* 12px */
+  --space-4: 1rem;        /* 16px */
+  --space-5: 1.25rem;     /* 20px */
+  --space-6: 1.5rem;      /* 24px */
+  --space-8: 2rem;        /* 32px */
+  --space-10: 2.5rem;     /* 40px */
+  --space-12: 3rem;       /* 48px */
+  --space-16: 4rem;       /* 64px */
+
+  /* Border Radii (Restrained & Structured) */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-full: 9999px;
+
+  /* Elevation & Shadows */
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.03);
+  --shadow-modal: 0 20px 25px -5px rgba(15, 23, 42, 0.2), 0 8px 10px -6px rgba(15, 23, 42, 0.1);
+
+  /* Focus Indicator (High Accessibility) */
+  --focus-ring: 0 0 0 3px rgba(26, 86, 219, 0.35);
+  --focus-ring-danger: 0 0 0 3px rgba(220, 38, 38, 0.35);
+
+  /* Dimensions */
+  --header-height: 64px;
+  --disclaimer-height: 32px;
+  --sidebar-width: 260px;
+  --content-max-width: 1400px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}

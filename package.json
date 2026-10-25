@@ -1,0 +1,23 @@
+{
+  "name": "aicte-prescrutiny-platform",
+  "version": "1.0.0",
+  "description": "AICTE Pre-Scrutiny & Deficiency Resolution Platform — SIH Prototype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test --test-concurrency=1 tests/frontend.test.js tests/auth_frontend.test.js tests/applications_frontend.test.js tests/extraction_frontend.test.js tests/regulatory_frontend.test.js tests/deficiency_frontend.test.js tests/reviewer_admin_frontend.test.js tests/accessibility_performance.test.js",
+    "lint": "node --experimental-vm-modules scripts/lint.js",
+    "build": "node scripts/build-check.js"
+  },
+  "keywords": [
+    "aicte",
+    "e-governance",
+    "document-verification",
+    "pre-scrutiny",
+    "sih"
+  ],
+  "author": "SIH Team",
+  "license": "UNLICENSED"
+}
